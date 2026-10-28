@@ -10,14 +10,14 @@ Run `/decide`, then `/tldr` to get just the call and why it won.
 ## Install
 
 ```
-/plugin marketplace add xlightxyearx/brief
+/plugin marketplace add to-infinity-labs/brief
 /plugin install brief@brief
 ```
 
 Installed as a plugin, the commands are `/brief:decide` and `/brief:tldr`. To use the bare `/decide` and `/tldr`, copy the folders instead:
 
 ```
-git clone https://github.com/xlightxyearx/brief
+git clone https://github.com/to-infinity-labs/brief
 cp -r brief/skills/decide brief/skills/tldr ~/.claude/skills/
 ```
 
