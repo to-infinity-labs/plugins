@@ -1,25 +1,16 @@
-# brief
+# To Infinity Labs plugins
 
-Two Claude Code skills that work well alone and better together.
-
-- **`/decide`** — a decision brief: TL;DR, two or three options tagged by reversibility and size, pros and cons, and **one** recommendation. Doing nothing is always considered; hacks and workarounds are never offered as options.
-- **`/tldr`** — says the last answer again, short and in plain words. No jargon, but every number, name and caveat that matters stays. Takes a length: `/tldr 3`, `/tldr one line`.
-
-Run `/decide`, then `/tldr` to get just the call and why it won.
-
-## Install
+Claude Code plugins from To Infinity Labs. Add the marketplace once:
 
 ```
-/plugin marketplace add to-infinity-labs/brief
-/plugin install brief@brief
+/plugin marketplace add to-infinity-labs/plugins
 ```
 
-Installed as a plugin, the commands are `/brief:decide` and `/brief:tldr`. To use the bare `/decide` and `/tldr`, copy the folders instead:
+then install any plugin by name.
 
-```
-git clone https://github.com/to-infinity-labs/brief
-cp -r brief/skills/decide brief/skills/tldr ~/.claude/skills/
-```
+| Plugin | What it does | Install |
+|---|---|---|
+| [brief](plugins/brief) | `/decide` for decision briefs that end in one recommendation, `/tldr` for plain-language summaries | `/plugin install brief@to-infinity-labs` |
 
 ## License
 

@@ -1,13 +1,11 @@
 {
-  "name": "brief",
-  "owner": {
-    "name": "xlightxyearx"
-  },
-  "description": "Two Claude Code skills: /decide and /tldr.",
+  "name": "to-infinity-labs",
+  "owner": { "name": "xlightxyearx" },
+  "description": "Claude Code plugins from To Infinity Labs.",
   "plugins": [
     {
       "name": "brief",
-      "source": "./",
+      "source": "./plugins/brief",
       "description": "/decide for decision briefs that end in one recommendation, and /tldr for plain-language summaries."
     }
   ]

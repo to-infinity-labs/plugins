@@ -3,8 +3,8 @@
   "description": "/decide for decision briefs that end in one recommendation, and /tldr for plain-language summaries.",
   "version": "1.0.0",
   "author": { "name": "xlightxyearx" },
-  "homepage": "https://github.com/to-infinity-labs/brief",
-  "repository": "https://github.com/to-infinity-labs/brief",
+  "homepage": "https://github.com/to-infinity-labs/plugins",
+  "repository": "https://github.com/to-infinity-labs/plugins",
   "license": "MIT",
   "keywords": ["skills", "decision", "summary"]
 }
