@@ -1,0 +1,14 @@
+{
+  "name": "brief",
+  "owner": {
+    "name": "xlightxyearx"
+  },
+  "description": "Two Claude Code skills: /decide and /tldr.",
+  "plugins": [
+    {
+      "name": "brief",
+      "source": "./",
+      "description": "/decide for decision briefs that end in one recommendation, and /tldr for plain-language summaries."
+    }
+  ]
+}
